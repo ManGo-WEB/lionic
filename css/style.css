@@ -71,3 +71,38 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/* Main */
+.body {
+	padding: 30px 0 45px;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.container-flex {
+	display: flex;
+}
+
+.nav-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.nav__list {
+	display: flex;
+}
+
+.logo_header {
+	margin-right: auto;
+}
+
+.nav_header {
+	margin-right: 52px;
+}
+
+.nav__item_header:not(:last-of-type) {
+	margin-right: 52px;
+}
