@@ -342,3 +342,120 @@ body {
 	display: block;
 	max-width: 160px;
 }
+
+.footer .container-flex {
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__left {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.footer__copyright {
+	font-size: 12px;
+	color: #787878;
+}
+
+.footer__right {
+	display: flex;
+	align-items: center;
+	gap: 56px;
+}
+
+.nav__list_footer {
+	gap: 28px;
+}
+
+.nav__link_footer {
+	font-size: 15px;
+	font-weight: 600;
+	color: #787878;
+}
+
+.social__list {
+	display: flex;
+	gap: 32px;
+}
+
+.social__link {
+	display: inline-block;
+	width: 24px;
+	height: 18px;
+	background-position: center center;
+}
+
+.social__link_twitter {
+	background: url(../img/twitter-icon.svg) no-repeat;
+}
+
+.social__link_linkedin {
+	background: url(../img/linkedin-icon.svg) no-repeat;
+}
+
+.social__link_mail {
+	background: url(../img/mailto-icon.svg) no-repeat;
+}
+
+.form {
+	
+}
+
+.form__top {
+	margin-bottom: 19px;
+	display: flex;
+	gap: 19px;
+}
+
+.form__left,
+.form__right {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 19px;
+}
+
+.form__input,
+.form__select {
+	width: 48%;
+	padding: 15px 28px;
+	border: 1px solid #dadada;
+	border-radius: 50px;
+}
+
+.form__input::placeholder,
+.form__select::placeholder {
+	color:#787878;
+}
+
+.form__select {
+	appearance: none;
+	color: #787878;
+	background: url(../img/select-arrow.svg) no-repeat right 24px center;
+}
+
+.form__textarea {
+	width: 100%;
+	padding: 15px 28px;
+	border: 1px solid #dadada;
+	border-radius: 20px;
+	resize: none;
+}
+
+.form__bottom {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.form__bottom label {
+	font-size: 12px;
+	color: #787878;
+}
+
+.form__bottom a {
+	color: #3172B9;
+	text-decoration: underline;
+}
