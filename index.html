@@ -10,7 +10,7 @@
 </head>
 
 <body class="body">
-	<header class="header">
+	<header class="header bordered">
 		<div class="container container-flex">
 			<a class="logo logo_header" href="#">
 				<img class="logo__img" src="img/logo.svg" alt="Logo">
@@ -46,7 +46,7 @@
 	</header>
 
 	<main class="main">
-		<section class="section hero" id="hero">
+		<section class="section section_hero" id="hero">
 			<div class="container">
 				<div class="hero-text">
 					<h1 class="main-title">This is&nbsp;simply a&nbsp;smarter way to&nbsp;make your legal online</h1>
@@ -58,14 +58,14 @@
 			</div>
 		</section>
 
-		<section class="section servises" id="servises">
+		<section class="section section_servises bordered" id="servises">
 			<div class="container">
 				<h2 class="section__title section__title_servises">Servises</h2>
 				<p class="section__subtitle">Lionic guides you on&nbsp;making decisions for all aspects of&nbsp;your end-of-life
 					plans.</p>
 
-				<ul class="cards__list list-reset">
-					<li class="cards__item">
+				<ul class="cards__list list-reset cards__list_servises">
+					<li class="cards__item cards__item_servises">
 						<svg class="card__icon" width="68" height="66" viewBox="0 0 68 66" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -75,7 +75,7 @@
 						<h3 class="card__title">Your Legacy</h3>
 						<p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
 					</li>
-					<li class="cards__item">
+					<li class="cards__item cards__item_servises">
 						<svg class="card__icon" width="86" height="64" viewBox="0 0 86 64" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -85,7 +85,7 @@
 						<h3 class="card__title">Your Health</h3>
 						<p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
 					</li>
-					<li class="cards__item">
+					<li class="cards__item cards__item_servises">
 						<svg class="card__icon" width="64" height="64" viewBox="0 0 64 64" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -95,7 +95,7 @@
 						<h3 class="card__title">Funeral &amp;&nbsp;Memorial</h3>
 						<p class="card__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
 					</li>
-					<li class="cards__item">
+					<li class="cards__item cards__item_servises">
 						<svg class="card__icon" width="65" height="65" viewBox="0 0 65 65" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<path
@@ -109,44 +109,52 @@
 			</div>
 		</section>
 
-		<section class="section articles" id="articles">
+		<section class="section section_articles bordered" id="articles">
 			<div class="container">
 				<h2 class="section__title">Articles</h2>
-				<ul class="cards__list list-reset">
+				<ul class="cards__list list-reset cards__list_articles">
 
 					<li class="cards__item article-card">
 						<article class="post">
 							<img class="post__img" src="img/article-1.jpg" alt="Jurisdiction">
-							<time class="post__date" datetime="2021-11-15">15 Nov 2021</time>
-							<h3 class="post__title">Jurisdiction</h3>
-							<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							<div class="post__wrapper">
+								<time class="post__date" datetime="2021-11-15">15 Nov 2021</time>
+								<h3 class="post__title">Jurisdiction</h3>
+								<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							</div>
 						</article>
 					</li>
 
 					<li class="cards__item article-card">
 						<article class="post">
 							<img class="post__img" src="img/article-2.jpg" alt="Consulting">
-							<time class="post__date" datetime="2021-11-28">28 Nov 2021</time>
-							<h3 class="post__title">Consulting</h3>
-							<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							<div class="post__wrapper">
+								<time class="post__date" datetime="2021-11-28">28 Nov 2021</time>
+								<h3 class="post__title">Consulting</h3>
+								<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							</div>
 						</article>
 					</li>
 
 					<li class="cards__item article-card">
 						<article class="post">
 							<img class="post__img" src="img/article-3.jpg" alt="Rights and obligations">
-							<time class="post__date" datetime="2021-11-29">29 Nov 2021</time>
-							<h3 class="post__title">Rights and obligations</h3>
-							<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							<div class="post__wrapper">
+								<time class="post__date" datetime="2021-11-29">29 Nov 2021</time>
+								<h3 class="post__title">Rights and obligations</h3>
+								<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							</div>
 						</article>
 					</li>
 
 					<li class="cards__item article-card">
 						<article class="post">
 							<img class="post__img" src="img/article-4.jpg" alt="Contractors">
-							<time class="post__date" datetime="2021-12-11">11 Dec 2021</time>
-							<h3 class="post__title">Contractors</h3>
-							<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							<div class="post__wrapper">
+								<time class="post__date" datetime="2021-12-11">11 Dec 2021</time>
+								<h3 class="post__title">Contractors</h3>
+								<p class="post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
+							</div>
 						</article>
 					</li>
 
@@ -154,10 +162,10 @@
 			</div>
 		</section>
 
-		<section class="section clients" id="clients">
+		<section class="section section_clients bordered" id="clients">
 			<div class="container">
 				<h2 class="section__title">Clients</h2>
-				<ul class="cards__list list-reset">
+				<ul class="cards__list list-reset card__list_clients">
 
 					<li class="cards__item client-card">
 						<p class="client__text">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit esse
@@ -202,29 +210,31 @@
 			</div>
 		</section>
 
-		<section class="section contacts" id="contacts">
+		<section class="section section_contacts bordered" id="contacts">
 			<div class="container">
 				<h2 class="section__title">Contacts</h2>
-				<div class="contacts__block contacts__block_location">
-					<h3 class="contacts__title">Visit&nbsp;Us</h3>
-					<p class="contacts__text">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.</p>
-				</div>
+				<div class="contacts__wrapper">
+					<div class="contacts__block contacts__block_location">
+						<h3 class="contacts__title">Visit&nbsp;Us</h3>
+						<p class="contacts__text">Duis autem vel eum iriure dolor in&nbsp;hendrerit in&nbsp;vulputate velit.</p>
+					</div>
 
-				<div class="contacts__block contacts__block_call">
-					<h3 class="contacts__title">Call&nbsp;Us</h3>
-					<a class="contacts__link" href="tel:+79876543210">+7 (987) 654-32-10</a>
-					<a class="contacts__link" href="tel:+71234567890">+7 (123) 456-78-90</a>
-				</div>
+					<div class="contacts__block contacts__block_call">
+						<h3 class="contacts__title">Call&nbsp;Us</h3>
+						<a class="contacts__link" href="tel:+79876543210">+7 (987) 654-32-10</a>
+						<a class="contacts__link" href="tel:+71234567890">+7 (123) 456-78-90</a>
+					</div>
 
-				<div class="contacts__block contacts__block_email">
-					<h3 class="contacts__title">Email&nbsp;Us</h3>
-					<a class="contacts__link" href="mailto:example@example.com">example@example.com</a>
-					<a class="contacts__link" href="mailto:support@example.com">support@example.com</a>
+					<div class="contacts__block contacts__block_email">
+						<h3 class="contacts__title">Email&nbsp;Us</h3>
+						<a class="contacts__link" href="mailto:example@example.com">example@example.com</a>
+						<a class="contacts__link" href="mailto:support@example.com">support@example.com</a>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="section join-us" id="join-us">
+		<section class="section section_join-us bordered" id="join-us">
 			<div class="container">
 				<h2 class="section__title section__title_join-us">Join us</h2>
 				<p class="section__subtitle">Take control of&nbsp;your paid subscriptions today!</p>
@@ -270,7 +280,7 @@
 			</div>
 			<div class="footer__right">
 				<nav class="footer__nav">
-					<ul class="nav__list">
+					<ul class="nav__list list-reset">
 						<li class="nav__item"><a class="nav__link" href="#">About Us</a></li>
 						<li class="nav__item"><a class="nav__link" href="#">Contact Us</a></li>
 						<li class="nav__item"><a class="nav__link" href="#">Privacy Policy</a></li>
@@ -278,7 +288,7 @@
 					</ul>
 				</nav>
 
-				<ul class="social__list">
+				<ul class="social__list list-reset">
 					<li class="social__item">
 						<a class="social__link social__link_" href="#">Tw</a>
 					</li>
