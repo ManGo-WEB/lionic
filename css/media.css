@@ -1,0 +1,43 @@
+@media (max-width: 1024px) {
+	.container {
+		max-width: 970px;
+	}
+
+	.footer__right {
+		gap: 22px;
+	}
+
+	.nav__list_footer {
+		gap: 22px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		max-width: 750px;
+	}
+
+	.section {
+		padding: 57px 0 90px;
+	}
+
+	.nav_header {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.hero-text {
+		max-width: 390px;
+	}
+
+	.cards__list_servises {
+		--offsets: 1;
+	}
+
+	.form__input, .form__select {
+		width: 100%;
+	}
+}
