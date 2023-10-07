@@ -288,10 +288,15 @@ body {
 .cards__item_servises {
 	padding: 62px 30px;
 	text-align: center;
+	transition: .3s ease-in-out background;
 }
 
 .card__icon {
 	margin-bottom: 27px;
+}
+
+.cards__item_servises path {
+	transition: .3s ease-in-out fill;
 }
 
 .card__title {
@@ -300,6 +305,7 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	color: var(--black);
+	transition: .3s ease-in-out color;
 }
 
 .card__text {
@@ -309,9 +315,50 @@ body {
 	color: var(--main-text);
 }
 
+.cards__item_servises:hover {
+	background: var(--blue);
+}
+
+.cards__item_servises:hover path {
+	fill: var(--white);
+}
+
+.cards__item_servises:hover .card__title {
+	color: var(--white);
+}
+
+.cards__item_servises:hover .card__text {
+	color: var(--white);
+}
+
+.article-card__link:hover .post{
+	background: var(--blue);
+}
+
+.article-card__link:focus .post {
+	background: var(--light-blue);
+}
+
+.article-card__link:focus .post__date {
+	color: var(--white);
+}
+
+.article-card__link:focus .post__title {
+	color: var(--white);
+}
+
+.article-card__link:focus .post__text {
+	color: var(--white);
+}
+
+.article-card__link:active .post {
+	background: var(--dark-blue);
+}
+
 .post {
 	display: flex;
 	gap: 30px;
+	transition: .3s ease-in-out background;
 }
 
 .post__wrapper {
@@ -322,6 +369,11 @@ body {
 	font-size: 10px;
 	line-height: 150%;
 	color: var(--main-text);
+	transition: .3s ease-in-out color;
+}
+
+.article-card__link:hover .post__date {
+	color: var(--white);
 }
 
 .post__title {
@@ -330,6 +382,11 @@ body {
 	font-size: 20px;
 	font-weight: 600;
 	color: var(--black);
+	transition: .3s ease-in-out color;
+}
+
+.article-card__link:hover .post__title {
+	color: var(--white);
 }
 
 .post__text {
@@ -338,6 +395,11 @@ body {
 	font-size: 14px;
 	line-height: 150%;
 	color: var(--main-text);
+	transition: .3s ease-in-out color;
+}
+
+.article-card__link:hover .post__text {
+	color: var(--white);
 }
 
 .client-card {
