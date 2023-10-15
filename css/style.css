@@ -258,6 +258,10 @@ body {
 	color: var(--main-text);
 }
 
+.section__subtitle_small {
+	display: none;
+}
+
 .section__title_servises {
 	text-align: center;
 }
